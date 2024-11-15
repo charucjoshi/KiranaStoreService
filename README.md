@@ -68,12 +68,6 @@ This project implements a system for receiving and scheduling jobs to process im
 
 ---
 
-## **Work Environment**
-- **Operating System**: WSL2 Ubuntu on Windows 11
-- **Editor**: Visual Studio Code with the Go extension
-
----
-
 ## **Scope for Improvement**
 While **goroutines** are efficient and lightweight for threading in Go, they may not always be reliable in complex scenarios. For a more scalable and robust solution, a **message broker** like **Redis** or **RabbitMQ** could be used. These tools:
 - Schedule tasks in a **queue-based** manner.
@@ -87,3 +81,11 @@ However, due to time constraints, this enhancement was not implemented in the cu
 - Replace goroutines with a task queue for job scheduling.
 - Introduce additional monitoring and logging mechanisms for better observability.
 - Add comprehensive unit and integration tests.
+
+---
+
+## **Work Environment**
+- **Operating System**: WSL2 Ubuntu on Windows 11
+- **Editor**: Visual Studio Code with the Go extension
+
+---
