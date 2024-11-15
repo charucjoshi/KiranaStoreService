@@ -1,5 +1,5 @@
 
-# **Backend Intern Assignment: Retail Pulse**
+# **Kirana Club Assignment**
 
 ## **Description**
 This project implements a system for receiving and scheduling jobs to process images using **Golang goroutines**. The system includes APIs for job submission and processing, database management using **GORM** for PostgreSQL, and robust error handling.
